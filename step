@@ -1,0 +1,25 @@
+// 1 . npm init -y 
+// 2 . npm i express cors dotenv mongodb
+// 3 . create .gitignore , .env
+// 4 . setup   "start": "node index.js",
+//     "build": "node index.js",
+//     "start-dev": "nodemon index.js",   
+//     in package.json
+
+// // 5 .    const express = require("express");
+// const cors = require("cors");
+// const app = express();
+
+// 6. require("dotenv").config();
+
+// const port = process.env.PORT || 3007;
+
+// 7 .  app.use(cors());
+// app.use(express.json());
+
+// 8. app.get("/", async (req, res) => {
+//     res.send(`sarwar portfolio server from localhost 3007 `);
+//   });
+  
+// 9. app.listen(port, () => console.log(`my server is running on ${port} ports`));
+
